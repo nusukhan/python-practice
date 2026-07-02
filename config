@@ -1,0 +1,5 @@
+Open terminal
+Press "Ctrl + Alt + T"
+
+# Just run this once to pin it
+jupyter notebook

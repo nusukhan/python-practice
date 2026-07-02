@@ -1,0 +1,85 @@
+#data type data type define what kind of value a varible stores
+#integer(int) whole number 
+age = 24
+#float(float) 
+price =99.5
+#string (str) text values
+name = "nusrat"
+#boolean (bool) TRUE AND FALSE 
+is_log_in = True
+#list (ordered and changeable collection)
+numbers = [1,2,3]
+#tuple ordered and unchangeable
+colors = ("red","blue")
+#dictionary (dict)
+#key value pair 
+student ={
+    "name":"ali",
+    "age":20
+}
+#set (set)
+#unordered unique values
+items = {1,2,3}
+
+#operators (operator perform operation on values )
+#arithemetic operators 
+#operator   meaning        example
+# +         addition        5+2
+# -         subtraction     5-2
+# *         multiplication  5*2
+#/           division       5/2
+#//          floor division 5//2  floor division returns the whole number part of division and remove the decimal 5/2 = 2.5 normal but floor division 5//2 = 2because it only keep the integer part 
+#%           Modulus         5%2  modulus return the remainder after division 
+print(5%2) #expanation  5 divide by 2 = 2 remainder 1 so output 1
+#**          power      5**2 
+
+
+a = 10
+b = 3
+print(a+b)
+print(a**b)
+ #comparison operators
+ #operator       meaning 
+ #==              equal
+ #!=              not equal 
+ #>               greater than 
+ #<               less than 
+ #>=               greater or equal 
+ #<=               less or equal 
+x = 10
+print(x>5)
+ #logical operator 
+ #operator      meaning 
+ #and           both condition true 
+ #or            atleast one true
+ #not           reverse condition 
+age = 20
+print(age > 18 and age<30)
+
+
+#decision structure  (used to make decision in program )
+#if statement 
+age = 18
+if age>=18:
+    print("adult")
+#if_else 
+num = 5
+if num % 2==0:
+    print("even")
+else:
+    print("odd")
+
+#if_elif_else 
+marks = 75
+if marks>=90:
+    print("A") 
+elif marks >=70:       
+     print("B")
+else:
+    print("C")
+
+
+#loop loop repeat code
+# for loop
+for i in range(5):
+    print(i)         
